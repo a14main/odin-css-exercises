@@ -7,6 +7,24 @@ img {
   height: 100px;
 }
 
+.container {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  gap: 32px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  flex: 0 1 200px;
+  text-align: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
